@@ -1,0 +1,356 @@
+en-US:
+  lang_native_name: "Bahasa Indonesia"
+  date:
+    formats:
+      full_day: "%A %B %e"
+      birthday: "%B %-d, %Y"
+      month_year: "%B %Y"
+  time:
+    ampm: false
+    formats:
+      time_only: "%I:%M %p"
+  datetime:
+    formats:
+      message: "%A %B %e, %I:%M"
+  boolean:
+    "true": Ya
+    "false": Tidak
+  helpers:
+    actions: Tindakan
+    disable_with: "Mohon tunggu..."
+    form:
+      error: "Memperbaiki kesalahan berikut"
+    links:
+      new: Baru
+      back: Kembali
+      confirm: "Yakinkah Anda ingin melakukan ini?"
+      show: Tampilkan
+      edit: Ubah
+      destroy: Hapus
+      user:
+        ban: Melarang
+        unban: Unban
+    titles:
+      new: "Baru %{model}"
+      edit: "Ubah %{model}"
+  views:
+    pagination:
+      first: ~
+      last: ~
+      previous: ~
+      next: ~
+      truncate: ~
+  templates:
+    itineraries:
+      read_more: "Baca selengkapnya"
+      show_on_map: "Tunjukkan di peta"
+      facebook_verified: "Diverifikasi di Facebook"
+  meta_title: "%{appname}"
+  meta_description: "Bagi perjalanan Anda, menghemat uang dan mendapatkan teman-teman."
+  loading: Memuat...
+  login: "Masuk log"
+  login_with_facebook: "Login dengan Facebook"
+  logout: "Keluar log"
+  we_will_never_post: "Kami tidak akan pernah mengirim apapun tanpa persetujuan Anda."
+  why_facebook: "Mengapa Facebook?"
+  about: "Tentang Kami"
+  how_it_works: "Cara kerja"
+  policy: ~
+  terms: ~
+  demo_terms: ~
+  former_user: ~
+  last_modified: ~
+  save: ~
+  close: ~
+  delete_account: ~
+  demo_mode: ~
+  user_mailer:
+    activation_needed_email:
+      subject: "Selamat Datang %{website}"
+      welcome: "Selamat %{website} %{username}"
+      successfully_signed_up: "Anda telah berhasil mendaftar %{website}"
+      your_username: "username Anda %{username}"
+      to_login_follow_link: "Untuk login ke situs, cukup ikuti link %{url}"
+      thanks_for_joining: "Terima kasih untuk bergabung dan memiliki hari besar!"
+    activation_success_email:
+      subject: "Akun Anda sekarang diaktifkan"
+      congratulations: ~
+      successfully_activated: "Anda telah berhasil diaktifkan %{website} akun,"
+      your_username: "username Anda %{username}"
+      to_login_follow_link: ~
+      thanks_for_joining: "Terima kasih untuk bergabung dan memiliki hari besar!"
+    reset_password_email:
+      subject: ~
+      hello: ~
+      request: ~
+      new_password_follow_link: ~
+      have_a_great_day: ~
+  recaptcha:
+    errors:
+      incorrect-captcha-sol: ~
+    enter_words: ~
+  flash:
+    admin:
+      users:
+        success:
+          ban: ~
+          unban: ~
+        error:
+          ban: ~
+          unban: ~
+    users:
+      success:
+        update: ~
+        destroy: ~
+      error:
+        update: ~
+    feedbacks:
+      success:
+        create: ~
+        update: ~
+        destroy: ~
+      error:
+        create: ~
+        update: ~
+        destroy: ~
+    itineraries:
+      success:
+        create: ~
+        update: ~
+        destroy: ~
+      error:
+        create: ~
+        update: ~
+        destroy: ~
+        pink: ~
+    sessions:
+      error:
+        create: ~
+        restricted: ~
+    messages:
+      error:
+        create: ~
+    errors:
+      not_allowed: ~
+  shared:
+    advertising:
+      enterprises: ~
+      contact_us_html: ~
+    navbar:
+      account_settings: ~
+      admin_users: ~
+      language: ~
+    footer:
+      message: ~
+  pages:
+    home:
+      tagline: ~
+      os_carpooling_platform: ~
+      learn_more: ~
+      what_is_appname: ~
+      main_features: ~
+      share_itinerary_title: "Share perjalanan"
+      share_itinerary_content: "Anda bepergian dengan mobil harian atau kadang-kadang? Bagi jadwal Anda dan memberikan kesempatan kepada orang lain yang tertarik pada jenis yang sama dari jalur untuk mencapai Anda."
+      make_new_connections_title: ~
+      make_new_connections_content: "Perjalanan akan lebih menyenangkan dengan teman-teman. Kami akan membantu Anda untuk menemukan seperjalanan lebih kompatibel dengan minat Anda."
+      save_money_title: Hemat
+      save_money_content: "Travels mendapatkan lebih banyak dan lebih mahal? Biaya berbagi dengan teman-teman baru Anda."
+      thats_easy_title: "Ini sangat mudah"
+      thats_easy_content: ~
+      help_environment_title: "Ramah lingkungan"
+      help_environment_content: ~
+      open_source_title: ~
+      open_source_content: ~
+      source_code: ~
+      signin_terms: ~
+      demo_mode: ~
+      join_us_today: ~
+    policy:
+      title: ~
+    terms:
+      title: ~
+    demo_terms:
+      title: ~
+  admin:
+    users:
+      index:
+        login_as: ~
+  users:
+    banned:
+      title: ~
+      you_were_banned: ~
+      banned_description_html: ~
+    calculator:
+      fuel_type: ~
+      fuel_diesel: ~
+      fuel_petrol: ~
+      fuel_lpg: ~
+      fuel_methane: ~
+      fuel_price: ~
+      vehicle_type: ~
+      vehicle_compact: ~
+      vehicle_standard: ~
+      vehicle_high_consumption: ~
+      per_liter: ~
+      fuel_cost_estimate: ~
+    dashboard:
+      title: ~
+      reminder: ~
+      new_itinerary: ~
+      search_itineraries: ~
+      your_itineraries: ~
+      latest_itineraries: ~
+      by: ~
+    itineraries:
+      title: ~
+    show:
+      member_since: ~
+      see_all: ~
+      facebook_verified: ~
+      basic_info: ~
+      friends: ~
+      age: ~
+      language: ~
+      common_friends: ~
+      likes: ~
+      and_others:
+        one: ~
+        other: ~
+    settings:
+      account_settings: ~
+      general_information: ~
+      vehicle_information: ~
+      user_profile_details: ~
+      vehicle_avg_consumption_help: ~
+      vehicle_avg_consumption_note: ~
+      fuel: ~
+      proportional_costs: ~
+      km_costs_calculation_link: ~
+      send_email: ~
+      send_email_at_address: ~
+      application_settings: ~
+  itineraries:
+    common:
+      about: ~
+      features: ~
+    search:
+      advanced_search: ~
+      the_same: ~
+      search: ~
+      verified_users: ~
+    index:
+      title: ~
+    show:
+      contact: ~
+      send_reference: ~
+      report_itinerary: ~
+      login_to_contact: ~
+    header:
+      app_user: ~
+      expenses_to_share: ~
+      smoking:
+        allowed: ~
+        forbidden: ~
+      pets:
+        allowed: ~
+        forbidden: ~
+    edit:
+      title: ~
+    new:
+      title: ~
+      step_1: ~
+      step_2: ~
+      step_3: ~
+      plan_route: ~
+      insert_itinerary_details: ~
+      confirm_and_share: ~
+      next_step: ~
+      previous_step: ~
+      missing_publish_actions_permission: ~
+      share_on_timeline_unavailable: ~
+    route_step:
+      get_route: ~
+      distance: ~
+      duration: ~
+      hint_privacy_title: ~
+      hint_privacy_content: ~
+      hint_customize_title: ~
+      hint_customize_content: ~
+      hint_search_before_title: ~
+      hint_search_before_content: ~
+      search_link: ~
+    form:
+      description_hint: ~
+      single_itinerary: ~
+      daily_itinerary: ~
+      day: ~
+      leave_time: ~
+      return_time: ~
+      edit_all_times: ~
+      more_accurate_data: ~
+      pink_hint: ~
+  feedbacks:
+    index:
+      hide_fixed: ~
+      new: ~
+      show_fixed: ~
+  notifications:
+    index:
+      title: ~
+  conversations:
+    index:
+      title: ~
+    show:
+      title: ~
+    new:
+      title: ~
+    messages:
+      time_ago: ~
+      seen: ~
+    form:
+      write_a_message: ~
+      send: ~
+  references:
+    common:
+      role: ~
+      driver: ~
+      passenger: ~
+    reference:
+      didnt_write_yet: ~
+    index:
+      title: ~
+    show:
+      title: ~
+    new:
+      title: ~
+    snippet:
+      positives:
+        zero: ~
+        one: ~
+        other: ~
+      neutrals:
+        zero: ~
+        one: ~
+        other: ~
+      negatives:
+        zero: ~
+        one: ~
+        other: ~
+    form:
+      write_a_reference: ~
+  javascript:
+    no_itineraries_found: ~
+    an_error_occurred: ~
+    fuel_help_text: ~
+    not_found: ~
+    zero_results: ~
+    setup_route_first: ~
+    notifications:
+      conversations:
+        title: ~
+        see_all: ~
+        no_new: ~
+      notifications:
+        title: ~
+        see_all: ~
+        no_new: ~
