@@ -5,17 +5,17 @@
 # SET SENSITIVE DATA ONLY IN 'local.rb'
 
 SimpleConfig.for :application do
-  set :app_name, 'icare'
-  set :repository_url, 'http://github.com/diowa/icare'
+  set :app_name, 'baliride'
+  set :repository_url, 'http://github.com/peterzen/icare'
 
-  set :advertising, true
-  set :demo_mode, true
-  set :base_url, 'localhost:3000'
+  set :advertising, false
+  set :demo_mode, false
+  set :base_url, 'baliride.co'
   set :single_process_mode, true
 
-  set :currency, '.00 €'
-  set :fuel_consumption, 0.12
-  set :fuel_currency, '€'
+  set :currency, 'Rp'
+  set :fuel_consumption, 1000
+  set :fuel_currency, 'Rp'
 
   set :costs_calculation_service_link, 'http://servizi.aci.it/CKInternet/'
 
@@ -43,11 +43,11 @@ SimpleConfig.for :application do
 
   group :map do
     # defaults to Italy
-    set :center, '41.87194, 12.567379999999957'
+    set :center, '-8.395169, 115.192777'
     set :zoom, 8
     group :bounds do
-      set :sw, '35.49292010, 6.62672010'
-      set :ne, '47.0920, 18.52050150'
+      set :sw, '-8.873814, 114.437383'
+      set :ne, '-7.973760, 115.743814'
     end
   end
 
@@ -62,17 +62,17 @@ SimpleConfig.for :application do
   end
 
   group :mailer do
-    set :from, "\"Icare\" <no-reply@i.care>"
-    set :host, 'localhost'
+    set :from, "\"Icare\" <no-reply@baliride.co>"
+    set :host, 'sendgrid.net'
 
     group :smtp_settings do
-      set :address, 'localhost'
+      set :address, 'sendgrid.net'
       set :port, 587
       set :authentication, :plain
-      set :domain, 'localhost'
+      set :domain, 'sendgrid.net'
 
-      set :user_name, 'test'
-      set :password, 'test'
+      set :user_name, 'balirideemail'
+      set :password, 'gaeK0aex'
     end
   end
 
